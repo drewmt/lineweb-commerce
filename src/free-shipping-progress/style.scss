@@ -1,0 +1,85 @@
+:where(.wp-block-lineweb-commerce-free-shipping-progress) {
+	--lwc-shipping-ink: #18201b;
+	--lwc-shipping-muted: #5f6b63;
+	--lwc-shipping-track: #dfe7e1;
+	--lwc-shipping-fill: #1d6848;
+	--lwc-shipping-surface: #f7f9f7;
+
+	box-sizing: border-box;
+	margin-block: 24px;
+	padding: 18px 20px;
+	color: var(--lwc-shipping-ink);
+	background: var(--lwc-shipping-surface);
+	border: 1px solid var(--lwc-shipping-track);
+	border-radius: 14px;
+}
+
+.wp-block-lineweb-commerce-free-shipping-progress *,
+.wp-block-lineweb-commerce-free-shipping-progress *::before,
+.wp-block-lineweb-commerce-free-shipping-progress *::after {
+	box-sizing: border-box;
+}
+
+.lwc-shipping-progress__copy {
+	display: flex;
+	gap: 14px;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.lwc-shipping-progress__message,
+.lwc-shipping-progress__values {
+	margin: 0;
+	line-height: 1.45;
+}
+
+.lwc-shipping-progress__message {
+	font-size: 0.9375rem;
+	font-weight: 650;
+}
+
+.lwc-shipping-progress__values {
+	flex: 0 0 auto;
+	color: var(--lwc-shipping-muted);
+	font-size: 0.8125rem;
+	font-variant-numeric: tabular-nums;
+}
+
+.lwc-shipping-progress__track {
+	position: relative;
+	height: 8px;
+	margin-top: 13px;
+	background: var(--lwc-shipping-track);
+	border-radius: 999px;
+	overflow: hidden;
+}
+
+.lwc-shipping-progress__track span {
+	display: block;
+	height: 100%;
+	background: var(--lwc-shipping-fill);
+	border-radius: inherit;
+	transition: width 220ms ease-out;
+}
+
+.wp-block-lineweb-commerce-free-shipping-progress.is-style-minimal {
+	padding-inline: 0;
+	background: transparent;
+	border: 0;
+	border-radius: 0;
+}
+
+@media (max-width: 520px) {
+
+	.lwc-shipping-progress__copy {
+		display: grid;
+		gap: 3px;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+	.lwc-shipping-progress__track span {
+		transition: none;
+	}
+}

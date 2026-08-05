@@ -1,0 +1,42 @@
+{
+  "name": "lineweb-commerce",
+  "version": "0.6.0",
+  "releaseDate": "2026-08-05 00:00+0000",
+  "description": "Practical product, delivery, and cart blocks for WooCommerce.",
+  "author": "Lineweb",
+  "license": "GPL-2.0-or-later",
+  "main": "build/product-specifications/index.js",
+  "scripts": {
+    "build": "wp-scripts build --experimental-modules --blocks-manifest && node tools/normalize-generated.mjs",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:php": "find . -path ./build -prune -o -name '*.php' -exec php -l {} +",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start --experimental-modules --blocks-manifest",
+    "test:e2e": "WP_BASE_URL=http://localhost:8888 wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js --runInBand --no-watchman"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "latest",
+    "@wordpress/block-editor": "latest",
+    "@wordpress/blocks": "latest",
+    "@wordpress/components": "latest",
+    "@wordpress/element": "latest",
+    "@wordpress/i18n": "latest",
+    "@wordpress/interactivity": "latest"
+  },
+  "files": [
+    "assets",
+    "build",
+    "includes",
+    "languages",
+    "lineweb-commerce.php",
+    "readme.txt"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@wordpress/e2e-test-utils-playwright": "^1.52.0",
+    "@wordpress/scripts": "^34.0.0"
+  }
+}

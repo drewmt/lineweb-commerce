@@ -1,0 +1,128 @@
+{
+  "translation-revision-date": "2026-08-05 00:00+0000",
+  "generator": "Lineweb reviewed localization map",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "plural-forms": "nplurals=2; plural=(n != 1);",
+        "lang": "el_GR"
+      },
+      "Priority scenarios": [
+        "Σενάρια προτεραιοτήτων"
+      ],
+      "Top fit": [
+        "Καλύτερη επιλογή"
+      ],
+      "priority fit": [
+        "καταλληλότητα προτεραιοτήτων"
+      ],
+      "Available": [
+        "Διαθέσιμο"
+      ],
+      "Currently unavailable": [
+        "Προς το παρόν μη διαθέσιμο"
+      ],
+      "Strongest fit": [
+        "Ισχυρότερο πλεονέκτημα"
+      ],
+      "Main trade-off": [
+        "Κύριος συμβιβασμός"
+      ],
+      "WooCommerce products could not be loaded.": [
+        "Δεν ήταν δυνατή η φόρτωση των προϊόντων WooCommerce."
+      ],
+      "New criterion": [
+        "Νέο κριτήριο"
+      ],
+      "Explain exactly what this criterion measures.": [
+        "Εξηγήστε ακριβώς τι μετρά αυτό το κριτήριο."
+      ],
+      "Add the assessment basis": [
+        "Προσθέστε τη βάση αξιολόγησης"
+      ],
+      "Live WooCommerce products": [
+        "Ζωντανά προϊόντα WooCommerce"
+      ],
+      "Choose two or three published products. Price and stock always come from WooCommerce.": [
+        "Επιλέξτε δύο ή τρία δημοσιευμένα προϊόντα. Η τιμή και το απόθεμα προέρχονται πάντα από το WooCommerce."
+      ],
+      "Candidate %d": [
+        "Υποψήφιο %d"
+      ],
+      "Scenario %d label": [
+        "Ετικέτα σεναρίου %d"
+      ],
+      "Document structure": [
+        "Δομή εγγράφου"
+      ],
+      "Heading level": [
+        "Επίπεδο επικεφαλίδας"
+      ],
+      "Method disclaimer": [
+        "Διευκρίνιση μεθόδου"
+      ],
+      "Eyebrow": [
+        "Υπερκεφαλίδα"
+      ],
+      "Decision heading": [
+        "Επικεφαλίδα απόφασης"
+      ],
+      "Explain how it works.": [
+        "Εξηγήστε πώς λειτουργεί."
+      ],
+      "The starter scores are instructional. Review every score and evidence label before publishing.": [
+        "Οι αρχικές βαθμολογίες είναι ενδεικτικές. Ελέγξτε κάθε βαθμολογία και ετικέτα τεκμηρίου πριν από τη δημοσίευση."
+      ],
+      "Build the reasoning model": [
+        "Δημιουργήστε το μοντέλο συλλογισμού"
+      ],
+      "Scores stay visible and bounded from 0 to 100.": [
+        "Οι βαθμολογίες παραμένουν ορατές και περιορισμένες από 0 έως 100."
+      ],
+      "Criterion %d": [
+        "Κριτήριο %d"
+      ],
+      "Move criterion up": [
+        "Μετακίνηση κριτηρίου πάνω"
+      ],
+      "Move criterion down": [
+        "Μετακίνηση κριτηρίου κάτω"
+      ],
+      "Remove criterion": [
+        "Αφαίρεση κριτηρίου"
+      ],
+      "Criterion label": [
+        "Ετικέτα κριτηρίου"
+      ],
+      "What it measures": [
+        "Τι μετρά"
+      ],
+      "Default importance": [
+        "Προεπιλεγμένη σημασία"
+      ],
+      "Evidence or assessment basis": [
+        "Τεκμήριο ή βάση αξιολόγησης"
+      ],
+      "Evidence URL": [
+        "URL τεκμηρίου"
+      ],
+      "Add criterion": [
+        "Προσθήκη κριτηρίου"
+      ],
+      "Live Woo preview": [
+        "Ζωντανή προεπισκόπηση WooCommerce"
+      ],
+      "Price and availability come from the current catalog.": [
+        "Η τιμή και η διαθεσιμότητα προέρχονται από τον τρέχοντα κατάλογο."
+      ],
+      "Choose at least two products.": [
+        "Επιλέξτε τουλάχιστον δύο προϊόντα."
+      ],
+      "Use the Product settings in the sidebar.": [
+        "Χρησιμοποιήστε τις ρυθμίσεις Προϊόντος στην πλαϊνή στήλη."
+      ]
+    }
+  }
+}

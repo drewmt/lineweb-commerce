@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lineweb-commerce/product-comparison",
+	"version": "0.6.0",
+	"title": "Product Comparison",
+	"category": "lineweb-commerce",
+	"icon": "columns",
+	"description": "Compare two to four published WooCommerce products with live catalog data.",
+	"keywords": [ "woocommerce", "products", "comparison" ],
+	"textdomain": "lineweb-commerce",
+	"attributes": {
+		"productIds": { "type": "array", "default": [] },
+		"eyebrow": { "type": "string", "default": "Compare products" },
+		"heading": { "type": "string", "default": "Choose the right option" },
+		"headingLevel": { "type": "number", "default": 2 },
+		"showAvailability": { "type": "boolean", "default": true },
+		"showDimensions": { "type": "boolean", "default": true },
+		"selectedAttributes": { "type": "array", "default": [] },
+		"differencesLabel": {
+			"type": "string",
+			"default": "Show differences only"
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"align": [ "wide", "full" ],
+		"anchor": true,
+		"html": false,
+		"spacing": { "margin": true }
+	},
+	"styles": [
+		{ "name": "table", "label": "Table", "isDefault": true },
+		{ "name": "compact", "label": "Compact" }
+	],
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}

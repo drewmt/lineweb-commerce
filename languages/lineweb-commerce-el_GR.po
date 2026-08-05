@@ -1,0 +1,1137 @@
+# Greek translation maintained by Lineweb <info@lineweb.gr>.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lineweb Commerce Suite 0.6.0\n"
+"Report-Msgid-Bugs-To: info@lineweb.gr\n"
+"POT-Creation-Date: 2026-08-05 00:00+0000\n"
+"PO-Revision-Date: 2026-08-05 00:00+0000\n"
+"Last-Translator: Lineweb <info@lineweb.gr>\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lineweb reviewed localization map\n"
+
+#: lineweb-commerce.php:68 includes/admin-page.php:26
+#: includes/auto-placements.php:53
+msgid "Lineweb Commerce"
+msgstr "Lineweb Commerce"
+
+#: includes/admin-page.php:25 includes/admin-page.php:223
+msgid "Lineweb Commerce Suite"
+msgstr "Lineweb Commerce Suite"
+
+#: includes/admin-page.php:96
+msgid "Explore suite"
+msgstr "Εξερεύνηση σουίτας"
+
+#: includes/admin-page.php:101
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/admin-page.php:128
+#. translators: %s: feature name.
+#, php-format
+msgid "Explore %s"
+msgstr "Εξερεύνηση: %s"
+
+#: includes/admin-page.php:151
+msgid "Enabled"
+msgstr "Ενεργό"
+
+#: includes/admin-page.php:151
+msgid "Disabled"
+msgstr "Απενεργοποιημένο"
+
+#: includes/admin-page.php:163
+msgid "Ready"
+msgstr "Έτοιμο"
+
+#: includes/admin-page.php:164
+msgid "Action needed"
+msgstr "Απαιτείται ενέργεια"
+
+#: includes/admin-page.php:165
+msgid "Info"
+msgstr "Πληροφορία"
+
+#: includes/admin-page.php:180
+msgid "You do not have permission to access this page."
+msgstr "Δεν έχετε δικαίωμα πρόσβασης σε αυτή τη σελίδα."
+
+#: includes/admin-page.php:193 includes/admin-page.php:214
+#: includes/admin-page.php:292 includes/admin-page.php:310
+msgid "Manual block"
+msgstr "Χειροκίνητο block"
+
+#: includes/admin-page.php:194 includes/admin-page.php:293
+msgid "Product Specifications"
+msgstr "Προδιαγραφές προϊόντος"
+
+#: includes/admin-page.php:195
+msgid "Show live SKU, stock, weight, dimensions, and visible product attributes."
+msgstr ""
+"Εμφανίστε ζωντανά το SKU, το απόθεμα, το βάρος, τις διαστάσεις και τα ορατά "
+"χαρακτηριστικά προϊόντος."
+
+#: includes/admin-page.php:200
+msgid "Automatic · Enabled"
+msgstr "Αυτόματο · Ενεργό"
+
+#: includes/admin-page.php:200 includes/admin-page.php:207
+msgid "Manual only"
+msgstr "Μόνο χειροκίνητα"
+
+#: includes/admin-page.php:201 includes/admin-page.php:299
+msgid "Delivery Estimate"
+msgstr "Εκτίμηση παράδοσης"
+
+#: includes/admin-page.php:202
+msgid ""
+"Give customers a stock-aware delivery window before they add a physical "
+"product to cart."
+msgstr ""
+"Δώστε στους πελάτες ένα εύρος παράδοσης που λαμβάνει υπόψη το απόθεμα, πριν "
+"προσθέσουν ένα φυσικό προϊόν στο καλάθι."
+
+#: includes/admin-page.php:207
+msgid "Automatic · Cart"
+msgstr "Αυτόματο · Καλάθι"
+
+#: includes/admin-page.php:208 includes/admin-page.php:305
+msgid "Free Shipping Progress"
+msgstr "Πρόοδος δωρεάν αποστολής"
+
+#: includes/admin-page.php:209
+msgid ""
+"Show how much remains for free shipping in the Cart, Mini-Cart, or selected "
+"content."
+msgstr ""
+"Εμφανίστε πόσο απομένει για δωρεάν αποστολή στο Καλάθι, το Mini-Cart ή σε "
+"επιλεγμένο περιεχόμενο."
+
+#: includes/admin-page.php:215 includes/admin-page.php:311
+msgid "Product Comparison"
+msgstr "Σύγκριση προϊόντων"
+
+#: includes/admin-page.php:216
+msgid ""
+"Compare two to four catalog-visible products with live prices, "
+"availability, dimensions, and selected attributes."
+msgstr ""
+"Συγκρίνετε δύο έως τέσσερα ορατά προϊόντα καταλόγου με ζωντανές τιμές, "
+"διαθεσιμότητα, διαστάσεις και επιλεγμένα χαρακτηριστικά."
+
+#: includes/admin-page.php:224
+msgid "Useful WooCommerce clarity, placed where it matters."
+msgstr "Χρήσιμη σαφήνεια στο WooCommerce, εκεί όπου έχει σημασία."
+
+#: includes/admin-page.php:225
+msgid ""
+"Make product facts, delivery timing, and free-shipping progress easier to "
+"understand—with automatic placements that remain under your control."
+msgstr ""
+"Κάντε τα στοιχεία προϊόντος, τον χρόνο παράδοσης και την πρόοδο δωρεάν "
+"αποστολής πιο κατανοητά, με αυτόματες τοποθετήσεις που παραμένουν υπό τον "
+"έλεγχό σας."
+
+#: includes/admin-page.php:228
+msgid "Placement settings"
+msgstr "Ρυθμίσεις τοποθέτησης"
+
+#: includes/admin-page.php:230
+msgid "Explore features"
+msgstr "Εξερεύνηση δυνατοτήτων"
+
+#: includes/admin-page.php:233
+msgid "Plugin status"
+msgstr "Κατάσταση plugin"
+
+#: includes/admin-page.php:234
+msgid "Lineweb — Creative Digital Agency"
+msgstr "Lineweb — Δημιουργικό Ψηφιακό Γραφείο"
+
+#: includes/admin-page.php:236
+msgid "Commerce Suite is active"
+msgstr "Το Commerce Suite είναι ενεργό"
+
+#: includes/admin-page.php:237
+#. translators: %s: plugin version.
+#, php-format
+msgid "Version %s · WooCommerce-native"
+msgstr "Έκδοση %s · Εγγενές στο WooCommerce"
+
+#: includes/admin-page.php:242
+msgid "Suite summary"
+msgstr "Σύνοψη σουίτας"
+
+#: includes/admin-page.php:243
+msgid "4 practical blocks"
+msgstr "4 πρακτικά blocks"
+
+#: includes/admin-page.php:243
+msgid "Product, delivery, comparison, and cart"
+msgstr "Προϊόν, παράδοση, σύγκριση και καλάθι"
+
+#: includes/admin-page.php:244
+#. translators: %d: enabled placement count.
+#, php-format
+msgid "%d of 3 automatic"
+msgstr "%d από 3 αυτόματα"
+
+#: includes/admin-page.php:244
+msgid "Live placement status"
+msgstr "Ζωντανή κατάσταση τοποθετήσεων"
+
+#: includes/admin-page.php:245
+msgid "Woo-owned data"
+msgstr "Δεδομένα του WooCommerce"
+
+#: includes/admin-page.php:245
+msgid "No copied catalog facts"
+msgstr "Χωρίς αντιγραφή στοιχείων καταλόγου"
+
+#: includes/admin-page.php:250
+msgid "Features customers can actually use"
+msgstr "Δυνατότητες που οι πελάτες χρησιμοποιούν πραγματικά"
+
+#: includes/admin-page.php:251
+msgid ""
+"Open a feature to see whether it appears automatically, where it belongs, "
+"and what the merchant controls."
+msgstr ""
+"Ανοίξτε μια δυνατότητα για να δείτε αν εμφανίζεται αυτόματα, πού ανήκει και "
+"τι ελέγχει ο έμπορος."
+
+#: includes/admin-page.php:262
+msgid "Automatic placement status"
+msgstr "Κατάσταση αυτόματων τοποθετήσεων"
+
+#: includes/admin-page.php:263
+msgid ""
+"These integrations use official WooCommerce positions. Change them at any "
+"time without editing a page or template."
+msgstr ""
+"Αυτές οι ενσωματώσεις χρησιμοποιούν επίσημα σημεία του WooCommerce. Αλλάξτε "
+"τις οποιαδήποτε στιγμή χωρίς επεξεργασία σελίδας ή template."
+
+#: includes/admin-page.php:266 includes/auto-placements.php:171
+msgid "Product delivery estimate"
+msgstr "Εκτίμηση παράδοσης προϊόντος"
+
+#: includes/admin-page.php:266
+msgid "Selected, but paused until the global profile is confirmed."
+msgstr "Επιλεγμένη, αλλά σε παύση μέχρι να επιβεβαιωθεί το καθολικό προφίλ."
+
+#: includes/admin-page.php:266
+msgid "After the add-to-cart area on physical product pages."
+msgstr "Μετά την περιοχή προσθήκης στο καλάθι στις σελίδες φυσικών προϊόντων."
+
+#: includes/admin-page.php:267 includes/auto-placements.php:178
+msgid "Cart free-shipping progress"
+msgstr "Πρόοδος δωρεάν αποστολής στο Καλάθι"
+
+#: includes/admin-page.php:267
+msgid "Inside Cart totals, immediately before the checkout action."
+msgstr "Μέσα στα σύνολα του Καλαθιού, ακριβώς πριν από την ενέργεια checkout."
+
+#: includes/admin-page.php:268 includes/auto-placements.php:185
+msgid "Mini-Cart free-shipping progress"
+msgstr "Πρόοδος δωρεάν αποστολής στο Mini-Cart"
+
+#: includes/admin-page.php:268
+msgid "Between Mini-Cart items and its action buttons."
+msgstr "Ανάμεσα στα στοιχεία του Mini-Cart και τα κουμπιά ενεργειών του."
+
+#: includes/admin-page.php:271
+msgid "Manage placements"
+msgstr "Διαχείριση τοποθετήσεων"
+
+#: includes/admin-page.php:277
+msgid "Merchant diagnostics"
+msgstr "Διαγνωστικά εμπόρου"
+
+#: includes/admin-page.php:278
+msgid ""
+"Read-only checks explain what is configured, paused, duplicated, or "
+"unsupported without changing store data."
+msgstr ""
+"Έλεγχοι μόνο για ανάγνωση εξηγούν τι έχει ρυθμιστεί, παύσει, "
+"διπλοεμφανιστεί ή δεν υποστηρίζεται, χωρίς αλλαγή δεδομένων του "
+"καταστήματος."
+
+#: includes/admin-page.php:287
+msgid "Where each feature belongs"
+msgstr "Πού ανήκει κάθε δυνατότητα"
+
+#: includes/admin-page.php:288
+msgid ""
+"Automatic features work immediately. Manual blocks remain available for "
+"product templates, landing pages, buying guides, posts, and pages."
+msgstr ""
+"Οι αυτόματες δυνατότητες λειτουργούν άμεσα. Τα χειροκίνητα blocks "
+"παραμένουν διαθέσιμα για templates προϊόντων, landing pages, οδηγούς "
+"αγοράς, άρθρα και σελίδες."
+
+#: includes/admin-page.php:294
+msgid ""
+"Use it when you want a custom, compact presentation instead of duplicating "
+"WooCommerce Additional Information automatically."
+msgstr ""
+"Χρησιμοποιήστε το όταν θέλετε μια προσαρμοσμένη, συμπαγή παρουσίαση αντί να "
+"αντιγράφετε αυτόματα τις Πρόσθετες πληροφορίες του WooCommerce."
+
+#: includes/admin-page.php:295
+msgid "Current or selected product"
+msgstr "Τρέχον ή επιλεγμένο προϊόν"
+
+#: includes/admin-page.php:295
+msgid "Live catalog facts through WooCommerce"
+msgstr "Ζωντανά στοιχεία καταλόγου μέσω WooCommerce"
+
+#: includes/admin-page.php:295
+msgid "Useful in templates, guides, pages, and posts"
+msgstr "Χρήσιμο σε templates, οδηγούς, σελίδες και άρθρα"
+
+#: includes/admin-page.php:298 includes/admin-page.php:304
+msgid "Automatic and manual"
+msgstr "Αυτόματο και χειροκίνητο"
+
+#: includes/admin-page.php:300
+msgid ""
+"The automatic card appears after add to cart for physical products. Insert "
+"it manually when a landing page needs the same clarity."
+msgstr ""
+"Η αυτόματη κάρτα εμφανίζεται μετά την προσθήκη στο καλάθι για φυσικά "
+"προϊόντα. Εισαγάγετέ τη χειροκίνητα όταν ένα landing page χρειάζεται την "
+"ίδια σαφήνεια."
+
+#: includes/admin-page.php:301
+msgid "Stock and backorder aware"
+msgstr "Λαμβάνει υπόψη απόθεμα και backorders"
+
+#: includes/admin-page.php:301
+msgid "Business days, cutoff time, and holidays"
+msgstr "Εργάσιμες ημέρες, ώρα λήξης και αργίες"
+
+#: includes/admin-page.php:301
+msgid "Uses the WordPress timezone"
+msgstr "Χρησιμοποιεί τη ζώνη ώρας του WordPress"
+
+#: includes/admin-page.php:306
+msgid ""
+"The Cart and Mini-Cart placements follow the live customer cart. A manual "
+"block is also available for selected content."
+msgstr ""
+"Οι τοποθετήσεις σε Καλάθι και Mini-Cart ακολουθούν το ζωντανό καλάθι του "
+"πελάτη. Διατίθεται επίσης χειροκίνητο block για επιλεγμένο περιεχόμενο."
+
+#: includes/admin-page.php:307
+msgid "Automatic shipping-zone threshold"
+msgstr "Αυτόματο όριο ζώνης αποστολής"
+
+#: includes/admin-page.php:307
+msgid "Live Store API updates"
+msgstr "Ζωντανές ενημερώσεις Store API"
+
+#: includes/admin-page.php:307
+msgid "Respects WooCommerce subtotal and coupon policy"
+msgstr "Σέβεται το υποσύνολο και την πολιτική κουπονιών του WooCommerce"
+
+#: includes/admin-page.php:312
+msgid ""
+"Use it in buying guides, posts, pages, or product content when shoppers "
+"need a factual side-by-side view."
+msgstr ""
+"Χρησιμοποιήστε το σε οδηγούς αγοράς, άρθρα, σελίδες ή περιεχόμενο προϊόντος "
+"όταν οι αγοραστές χρειάζονται αντικειμενική παράλληλη σύγκριση."
+
+#: includes/admin-page.php:313
+msgid "Two to four live, catalog-visible products"
+msgstr "Δύο έως τέσσερα ζωντανά, ορατά προϊόντα καταλόγου"
+
+#: includes/admin-page.php:313
+msgid "WooCommerce prices, availability, dimensions, and visible attributes"
+msgstr "Τιμές, διαθεσιμότητα, διαστάσεις και ορατά χαρακτηριστικά WooCommerce"
+
+#: includes/admin-page.php:313
+msgid "Responsive table and differences-only view"
+msgstr "Responsive πίνακας και προβολή μόνο διαφορών"
+
+#: includes/admin-page.php:320
+msgid "Your quickest workflow"
+msgstr "Η πιο γρήγορη διαδικασία"
+
+#: includes/admin-page.php:321
+msgid ""
+"Automatic placements need no page editing. Use Gutenberg only when you want "
+"a block in an additional location."
+msgstr ""
+"Οι αυτόματες τοποθετήσεις δεν χρειάζονται επεξεργασία σελίδας. "
+"Χρησιμοποιήστε το Gutenberg μόνο όταν θέλετε ένα block σε επιπλέον σημείο."
+
+#: includes/admin-page.php:324
+msgid "Review placements"
+msgstr "Έλεγχος τοποθετήσεων"
+
+#: includes/admin-page.php:324
+msgid "Confirm the product, Cart, and Mini-Cart integrations."
+msgstr "Επιβεβαιώστε τις ενσωματώσεις σε προϊόν, Καλάθι και Mini-Cart."
+
+#: includes/admin-page.php:325
+msgid "Check store data"
+msgstr "Έλεγχος δεδομένων καταστήματος"
+
+#: includes/admin-page.php:325
+msgid "Make sure product dimensions and free-shipping rules are complete."
+msgstr ""
+"Βεβαιωθείτε ότι οι διαστάσεις προϊόντων και οι κανόνες δωρεάν αποστολής "
+"είναι πλήρεις."
+
+#: includes/admin-page.php:326
+msgid "Add manual blocks"
+msgstr "Προσθήκη χειροκίνητων blocks"
+
+#: includes/admin-page.php:326
+msgid "Use the editor for landing pages, buying guides, or custom product content."
+msgstr ""
+"Χρησιμοποιήστε τον editor για landing pages, οδηγούς αγοράς ή προσαρμοσμένο "
+"περιεχόμενο προϊόντος."
+
+#: includes/admin-page.php:329
+msgid "View products"
+msgstr "Προβολή προϊόντων"
+
+#: includes/admin-page.php:330
+msgid "Create a landing page"
+msgstr "Δημιουργία landing page"
+
+#: includes/admin-page.php:331
+msgid "Preview Cart"
+msgstr "Προεπισκόπηση Καλαθιού"
+
+#: includes/admin-page.php:339
+msgid "Built by Lineweb"
+msgstr "Κατασκευάστηκε από τη Lineweb"
+
+#: includes/admin-page.php:339
+msgid "Custom websites, software, and practical automation · Thessaloniki, Greece"
+msgstr ""
+"Custom ιστοσελίδες, λογισμικό και πρακτικοί αυτοματισμοί · Θεσσαλονίκη, "
+"Ελλάδα"
+
+#: includes/auto-placements.php:73 includes/diagnostics.php:41 src/delivery-estimate/edit.js:103
+msgid "Global delivery profile"
+msgstr "Καθολικό προφίλ παράδοσης"
+
+#: includes/auto-placements.php:74
+msgid ""
+"Used by automatic Delivery Estimate placements and by manual blocks set to "
+"Global profile. Review every value before confirming it."
+msgstr ""
+"Χρησιμοποιείται από τις αυτόματες τοποθετήσεις Εκτίμησης παράδοσης και από "
+"χειροκίνητα blocks που χρησιμοποιούν το Καθολικό προφίλ. Ελέγξτε κάθε τιμή "
+"πριν το επιβεβαιώσετε."
+
+#: includes/auto-placements.php:79
+msgid "Delivery range"
+msgstr "Εύρος παράδοσης"
+
+#: includes/auto-placements.php:80 src/delivery-estimate/edit.js:132
+msgid "Minimum business days"
+msgstr "Ελάχιστες εργάσιμες ημέρες"
+
+#: includes/auto-placements.php:87 src/delivery-estimate/edit.js:150
+msgid "Maximum business days"
+msgstr "Μέγιστες εργάσιμες ημέρες"
+
+#: includes/auto-placements.php:94 src/delivery-estimate/edit.js:162
+msgid "Daily cutoff hour"
+msgstr "Καθημερινή ώρα λήξης"
+
+#: includes/auto-placements.php:95
+msgid "Store-local hour from 0 to 23."
+msgstr "Τοπική ώρα καταστήματος από 0 έως 23."
+
+#: includes/auto-placements.php:102
+msgid "Working days"
+msgstr "Εργάσιμες ημέρες"
+
+#: includes/auto-placements.php:108
+msgid "Monday"
+msgstr "Δευτέρα"
+
+#: includes/auto-placements.php:109
+msgid "Tuesday"
+msgstr "Τρίτη"
+
+#: includes/auto-placements.php:110
+msgid "Wednesday"
+msgstr "Τετάρτη"
+
+#: includes/auto-placements.php:111
+msgid "Thursday"
+msgstr "Πέμπτη"
+
+#: includes/auto-placements.php:112
+msgid "Friday"
+msgstr "Παρασκευή"
+
+#: includes/auto-placements.php:113
+msgid "Saturday"
+msgstr "Σάββατο"
+
+#: includes/auto-placements.php:114
+msgid "Sunday"
+msgstr "Κυριακή"
+
+#: includes/auto-placements.php:118
+msgid "Store holidays"
+msgstr "Αργίες καταστήματος"
+
+#: includes/auto-placements.php:119
+msgid "Comma-separated YYYY-MM-DD dates. Invalid values are ignored."
+msgstr "Ημερομηνίες YYYY-MM-DD χωρισμένες με κόμμα. Οι μη έγκυρες τιμές αγνοούνται."
+
+#: includes/auto-placements.php:126
+msgid "Backorders"
+msgstr "Παραγγελίες σε αναμονή αποθέματος"
+
+#: includes/auto-placements.php:131
+msgid "Show the backorder message"
+msgstr "Εμφάνιση μηνύματος backorder"
+
+#: includes/auto-placements.php:132
+msgid "Show a delayed delivery window"
+msgstr "Εμφάνιση καθυστερημένου εύρους παράδοσης"
+
+#: includes/auto-placements.php:133 includes/auto-placements.php:150
+msgid "Hide the estimate"
+msgstr "Απόκρυψη εκτίμησης"
+
+#: includes/auto-placements.php:137
+msgid "Backorder extra days"
+msgstr "Επιπλέον ημέρες για backorder"
+
+#: includes/auto-placements.php:144
+msgid "Out-of-stock products"
+msgstr "Προϊόντα χωρίς απόθεμα"
+
+#: includes/auto-placements.php:149
+msgid "Show the out-of-stock message"
+msgstr "Εμφάνιση μηνύματος εξάντλησης"
+
+#: includes/auto-placements.php:154
+msgid "Confirm profile"
+msgstr "Επιβεβαίωση προφίλ"
+
+#: includes/auto-placements.php:155
+msgid "I have checked these delivery rules and approve their storefront use."
+msgstr ""
+"Έχω ελέγξει αυτούς τους κανόνες παράδοσης και εγκρίνω τη χρήση τους στο "
+"κατάστημα."
+
+#: includes/auto-placements.php:165
+msgid "Automatic placements"
+msgstr "Αυτόματες τοποθετήσεις"
+
+#: includes/auto-placements.php:166
+msgid ""
+"Useful blocks appear at WooCommerce conversion points automatically. "
+"Disable a placement here when a theme or custom template already provides "
+"it."
+msgstr ""
+"Χρήσιμα blocks εμφανίζονται αυτόματα στα σημεία μετατροπής του WooCommerce. "
+"Απενεργοποιήστε εδώ μια τοποθέτηση όταν παρέχεται ήδη από το theme ή από "
+"custom template."
+
+#: includes/auto-placements.php:172
+msgid "Show Delivery Estimate after the add-to-cart area on physical product pages."
+msgstr ""
+"Εμφάνιση Εκτίμησης παράδοσης μετά την περιοχή προσθήκης στο καλάθι στις "
+"σελίδες φυσικών προϊόντων."
+
+#: includes/auto-placements.php:179
+msgid ""
+"Show Free Shipping Progress before checkout in the official Cart block or "
+"in the classic cart."
+msgstr ""
+"Εμφάνιση Προόδου δωρεάν αποστολής πριν από το checkout στο επίσημο Cart "
+"block ή στο κλασικό καλάθι."
+
+#: includes/auto-placements.php:186
+msgid ""
+"Show Free Shipping Progress between the Mini-Cart items and its action "
+"buttons."
+msgstr ""
+"Εμφάνιση Προόδου δωρεάν αποστολής ανάμεσα στα στοιχεία του Mini-Cart και τα "
+"κουμπιά ενεργειών του."
+
+#: includes/commerce-helpers.php:175 src/product-specifications/edit.js:31
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/commerce-helpers.php:179 src/product-comparison/render.php:68 src/product-comparison/edit.js:122 src/product-specifications/edit.js:38
+msgid "In stock"
+msgstr "Σε απόθεμα"
+
+#: includes/commerce-helpers.php:179 src/product-comparison/render.php:68 src/product-comparison/edit.js:123 src/product-specifications/edit.js:39
+msgid "Out of stock"
+msgstr "Εξαντλημένο"
+
+#: includes/commerce-helpers.php:184
+#. translators: %1$s: stock status, %2$d: available quantity.
+#, php-format
+msgid "%1$s · %2$d available"
+msgstr "%1$s · %2$d διαθέσιμα"
+
+#: includes/commerce-helpers.php:190 src/product-comparison/render.php:65 src/product-comparison/edit.js:119 src/product-specifications/edit.js:36
+msgid "Availability"
+msgstr "Διαθεσιμότητα"
+
+#: includes/commerce-helpers.php:194 src/product-specifications/edit.js:47
+msgid "Weight"
+msgstr "Βάρος"
+
+#: includes/commerce-helpers.php:198 src/product-comparison/render.php:76 src/product-comparison/edit.js:129 src/product-specifications/edit.js:54
+msgid "Dimensions"
+msgstr "Διαστάσεις"
+
+#: includes/commerce-helpers.php:608
+msgid "Whether one free-shipping goal can be represented for the current cart."
+msgstr "Αν μπορεί να παρουσιαστεί ένας στόχος δωρεάν αποστολής για το τρέχον καλάθι."
+
+#: includes/commerce-helpers.php:613
+msgid "The matching free-shipping threshold in the store currency minor unit."
+msgstr ""
+"Το αντίστοιχο όριο δωρεάν αποστολής στη μικρότερη μονάδα του νομίσματος "
+"καταστήματος."
+
+#: includes/commerce-helpers.php:618
+msgid "Whether the free-shipping method evaluates the subtotal before discounts."
+msgstr "Αν η μέθοδος δωρεάν αποστολής αξιολογεί το υποσύνολο πριν από τις εκπτώσεις."
+
+#: includes/commerce-helpers.php:623
+msgid "Whether displayed product subtotals include tax."
+msgstr "Αν τα εμφανιζόμενα υποσύνολα προϊόντων περιλαμβάνουν φόρο."
+
+#: includes/decision-helpers.php:228 includes/decision-helpers.php:229
+msgid "Not enough reviewed criteria"
+msgstr "Δεν υπάρχουν αρκετά ελεγμένα κριτήρια"
+
+#: includes/diagnostics.php:43
+msgid "Confirmed. Automatic estimates may use the merchant-approved rules."
+msgstr ""
+"Επιβεβαιώθηκε. Οι αυτόματες εκτιμήσεις μπορούν να χρησιμοποιούν τους "
+"κανόνες που ενέκρινε ο έμπορος."
+
+#: includes/diagnostics.php:44
+msgid "Not confirmed. Automatic delivery estimates are safely paused."
+msgstr ""
+"Δεν έχει επιβεβαιωθεί. Οι αυτόματες εκτιμήσεις παράδοσης έχουν τεθεί με "
+"ασφάλεια σε παύση."
+
+#: includes/diagnostics.php:48
+msgid "Free-shipping rule"
+msgstr "Κανόνας δωρεάν αποστολής"
+
+#: includes/diagnostics.php:50
+msgid "At least one enabled WooCommerce free-shipping method is available."
+msgstr "Υπάρχει τουλάχιστον μία ενεργή μέθοδος δωρεάν αποστολής WooCommerce."
+
+#: includes/diagnostics.php:51
+msgid ""
+"No enabled free-shipping method was found; automatic progress bars remain "
+"empty."
+msgstr ""
+"Δεν βρέθηκε ενεργή μέθοδος δωρεάν αποστολής· οι αυτόματες μπάρες προόδου "
+"παραμένουν κενές."
+
+#: includes/diagnostics.php:61
+msgid "Duplicate protection"
+msgstr "Προστασία από διπλοεμφάνιση"
+
+#: includes/diagnostics.php:63
+msgid ""
+"A manual block overlaps an enabled placement. Runtime duplicate protection "
+"will keep only one output."
+msgstr ""
+"Ένα χειροκίνητο block επικαλύπτει ενεργή τοποθέτηση. Η προστασία runtime θα "
+"διατηρήσει μόνο μία εμφάνιση."
+
+#: includes/diagnostics.php:64
+msgid "No overlapping manual and automatic placement was detected."
+msgstr "Δεν εντοπίστηκε επικάλυψη χειροκίνητης και αυτόματης τοποθέτησης."
+
+#: includes/diagnostics.php:77
+msgid "Product type coverage"
+msgstr "Κάλυψη τύπων προϊόντων"
+
+#: includes/diagnostics.php:79
+msgid "No published grouped or external products were detected."
+msgstr "Δεν εντοπίστηκαν δημοσιευμένα ομαδοποιημένα ή εξωτερικά προϊόντα."
+
+#: includes/diagnostics.php:80
+msgid ""
+"Grouped or external products exist. Delivery placement supports physical "
+"purchasable products; comparison still shows their catalog facts."
+msgstr ""
+"Υπάρχουν ομαδοποιημένα ή εξωτερικά προϊόντα. Η τοποθέτηση παράδοσης "
+"υποστηρίζει φυσικά προϊόντα που μπορούν να αγοραστούν· η σύγκριση συνεχίζει "
+"να εμφανίζει τα στοιχεία καταλόγου τους."
+
+#: includes/diagnostics.php:85
+msgid "Actual placement locations"
+msgstr "Πραγματικά σημεία τοποθέτησης"
+
+#: includes/diagnostics.php:86
+msgid ""
+"Delivery: product add-to-cart area. Progress: Cart checkout action, Cart "
+"fallback, Mini-Cart block, and classic Mini-Cart widget."
+msgstr ""
+"Παράδοση: περιοχή προσθήκης προϊόντος στο καλάθι. Πρόοδος: ενέργεια "
+"checkout Καλαθιού, εφεδρικό Cart, Mini-Cart block και κλασικό widget "
+"Mini-Cart."
+
+#: src/decision-room/render.php:56
+msgid "No recommendation yet"
+msgstr "Δεν υπάρχει ακόμη πρόταση"
+
+#: src/decision-room/render.php:80
+msgid "Custom priorities"
+msgstr "Προσαρμοσμένες προτεραιότητες"
+
+#: src/decision-room/render.php:99
+msgid "Decision Room needs configuration."
+msgstr "Το Decision Room χρειάζεται ρύθμιση."
+
+#: src/decision-room/render.php:100
+msgid ""
+"Choose at least two visible WooCommerce products and one reviewed criterion "
+"in the block editor."
+msgstr ""
+"Επιλέξτε τουλάχιστον δύο ορατά προϊόντα WooCommerce και ένα ελεγμένο "
+"κριτήριο στον block editor."
+
+#: src/decision-room/render.php:104
+msgid "Current top fit"
+msgstr "Καλύτερη τρέχουσα επιλογή"
+
+#: src/decision-room/render.php:106
+msgid "Based on the visible priorities below"
+msgstr "Με βάση τις ορατές προτεραιότητες παρακάτω"
+
+#: src/decision-room/render.php:110 src/decision-room/edit.js:330
+msgid "Priority scenarios"
+msgstr "Σενάρια προτεραιοτήτων"
+
+#: src/decision-room/render.php:111
+msgid "Start with a scenario"
+msgstr "Ξεκινήστε με ένα σενάριο"
+
+#: src/decision-room/render.php:136
+msgid "Set your priorities"
+msgstr "Ορίστε τις προτεραιότητές σας"
+
+#: src/decision-room/render.php:137
+msgid "Nothing is hidden: every weight changes the recommendation."
+msgstr "Τίποτα δεν είναι κρυφό: κάθε βαρύτητα αλλάζει την πρόταση."
+
+#: src/decision-room/render.php:158
+#. translators: %s: criterion label.
+#, php-format
+msgid "%s priority weight"
+msgstr "Βαρύτητα προτεραιότητας %s"
+
+#: src/decision-room/render.php:169
+msgid "Basis:"
+msgstr "Βάση:"
+
+#: src/decision-room/render.php:186
+msgid "See the reasoning"
+msgstr "Δείτε το σκεπτικό"
+
+#: src/decision-room/render.php:187
+msgid "Current WooCommerce price and availability stay separate from editorial fit."
+msgstr ""
+"Η τρέχουσα τιμή και διαθεσιμότητα WooCommerce παραμένουν ξεχωριστές από τη "
+"συντακτική αξιολόγηση."
+
+#: src/decision-room/render.php:208 src/decision-room/edit.js:728
+msgid "Top fit"
+msgstr "Καλύτερη επιλογή"
+
+#: src/decision-room/render.php:213 src/decision-room/edit.js:747
+msgid "priority fit"
+msgstr "καταλληλότητα προτεραιοτήτων"
+
+#: src/decision-room/render.php:218 src/decision-room/edit.js:767
+msgid "Available"
+msgstr "Διαθέσιμο"
+
+#: src/decision-room/render.php:218 src/decision-room/edit.js:771
+msgid "Currently unavailable"
+msgstr "Προς το παρόν μη διαθέσιμο"
+
+#: src/decision-room/render.php:221 src/decision-room/edit.js:779
+msgid "Strongest fit"
+msgstr "Ισχυρότερο πλεονέκτημα"
+
+#: src/decision-room/render.php:222 src/decision-room/edit.js:792
+msgid "Main trade-off"
+msgstr "Κύριος συμβιβασμός"
+
+#: src/decision-room/render.php:224
+msgid "Review product"
+msgstr "Προβολή προϊόντος"
+
+#: src/delivery-estimate/render.php:62
+msgid "to"
+msgstr "έως"
+
+#: src/delivery-estimate/render.php:68
+msgid "Estimate based on current availability and store business days."
+msgstr ""
+"Εκτίμηση βάσει της τρέχουσας διαθεσιμότητας και των εργάσιμων ημερών του "
+"καταστήματος."
+
+#: src/free-shipping-progress/render.php:76 src/free-shipping-progress/edit.js:143
+msgid "Free shipping progress"
+msgstr "Πρόοδος δωρεάν αποστολής"
+
+#: src/product-comparison/render.php:54 src/product-comparison/edit.js:113
+msgid "Price"
+msgstr "Τιμή"
+
+#: src/product-comparison/render.php:111
+msgid "Scroll sideways to compare every product."
+msgstr "Κάντε οριζόντια κύλιση για να συγκρίνετε κάθε προϊόν."
+
+#: src/product-comparison/render.php:112
+msgid "Product comparison table"
+msgstr "Πίνακας σύγκρισης προϊόντων"
+
+#: src/product-comparison/render.php:114 src/product-comparison/edit.js:276
+msgid "Feature"
+msgstr "Χαρακτηριστικό"
+
+#: src/product-comparison/render.php:124
+#: src/product-specifications/render.php:28
+msgid "Not available"
+msgstr "Μη διαθέσιμο"
+
+#: src/decision-room/edit.js:112 src/shared/product-catalog.js:53
+msgid "WooCommerce products could not be loaded."
+msgstr "Δεν ήταν δυνατή η φόρτωση των προϊόντων WooCommerce."
+
+#: src/decision-room/edit.js:228
+msgid "New criterion"
+msgstr "Νέο κριτήριο"
+
+#: src/decision-room/edit.js:229
+msgid "Explain exactly what this criterion measures."
+msgstr "Εξηγήστε ακριβώς τι μετρά αυτό το κριτήριο."
+
+#: src/decision-room/edit.js:235
+msgid "Add the assessment basis"
+msgstr "Προσθέστε τη βάση αξιολόγησης"
+
+#: src/decision-room/edit.js:292
+msgid "Live WooCommerce products"
+msgstr "Ζωντανά προϊόντα WooCommerce"
+
+#: src/decision-room/edit.js:299
+msgid ""
+"Choose two or three published products. Price and stock always come from "
+"WooCommerce."
+msgstr ""
+"Επιλέξτε δύο ή τρία δημοσιευμένα προϊόντα. Η τιμή και το απόθεμα "
+"προέρχονται πάντα από το WooCommerce."
+
+# translators: %d: candidate number.
+#: src/decision-room/edit.js:310 src/decision-room/edit.js:587
+msgid "Candidate %d"
+msgstr "Υποψήφιο %d"
+
+# translators: %d: scenario number.
+#: src/decision-room/edit.js:342
+msgid "Scenario %d label"
+msgstr "Ετικέτα σεναρίου %d"
+
+#: src/decision-room/edit.js:380
+msgid "Document structure"
+msgstr "Δομή εγγράφου"
+
+#: src/decision-room/edit.js:385 src/delivery-estimate/edit.js:223 src/product-comparison/edit.js:224 src/product-specifications/edit.js:146
+msgid "Heading level"
+msgstr "Επίπεδο επικεφαλίδας"
+
+#: src/decision-room/edit.js:397
+msgid "Method disclaimer"
+msgstr "Διευκρίνιση μεθόδου"
+
+#: src/decision-room/edit.js:416
+msgid "Eyebrow"
+msgstr "Υπερκεφαλίδα"
+
+#: src/decision-room/edit.js:425
+msgid "Decision heading"
+msgstr "Επικεφαλίδα απόφασης"
+
+#: src/decision-room/edit.js:438
+msgid "Explain how it works."
+msgstr "Εξηγήστε πώς λειτουργεί."
+
+#: src/decision-room/edit.js:446
+msgid ""
+"The starter scores are instructional. Review every score and evidence label "
+"before publishing."
+msgstr ""
+"Οι αρχικές βαθμολογίες είναι ενδεικτικές. Ελέγξτε κάθε βαθμολογία και "
+"ετικέτα τεκμηρίου πριν από τη δημοσίευση."
+
+#: src/decision-room/edit.js:457
+msgid "Build the reasoning model"
+msgstr "Δημιουργήστε το μοντέλο συλλογισμού"
+
+#: src/decision-room/edit.js:463
+msgid "Scores stay visible and bounded from 0 to 100."
+msgstr "Οι βαθμολογίες παραμένουν ορατές και περιορισμένες από 0 έως 100."
+
+# translators: %d: criterion number.
+#: src/decision-room/edit.js:480
+msgid "Criterion %d"
+msgstr "Κριτήριο %d"
+
+#: src/decision-room/edit.js:489
+msgid "Move criterion up"
+msgstr "Μετακίνηση κριτηρίου πάνω"
+
+#: src/decision-room/edit.js:503
+msgid "Move criterion down"
+msgstr "Μετακίνηση κριτηρίου κάτω"
+
+#: src/decision-room/edit.js:520
+msgid "Remove criterion"
+msgstr "Αφαίρεση κριτηρίου"
+
+#: src/decision-room/edit.js:536
+msgid "Criterion label"
+msgstr "Ετικέτα κριτηρίου"
+
+#: src/decision-room/edit.js:549
+msgid "What it measures"
+msgstr "Τι μετρά"
+
+#: src/decision-room/edit.js:562
+msgid "Default importance"
+msgstr "Προεπιλεγμένη σημασία"
+
+#: src/decision-room/edit.js:615
+msgid "Evidence or assessment basis"
+msgstr "Τεκμήριο ή βάση αξιολόγησης"
+
+#: src/decision-room/edit.js:628
+msgid "Evidence URL"
+msgstr "URL τεκμηρίου"
+
+#: src/decision-room/edit.js:649
+msgid "Add criterion"
+msgstr "Προσθήκη κριτηρίου"
+
+#: src/decision-room/edit.js:658
+msgid "Live Woo preview"
+msgstr "Ζωντανή προεπισκόπηση WooCommerce"
+
+#: src/decision-room/edit.js:661
+msgid "Price and availability come from the current catalog."
+msgstr "Η τιμή και η διαθεσιμότητα προέρχονται από τον τρέχοντα κατάλογο."
+
+#: src/decision-room/edit.js:672
+msgid "Choose at least two products."
+msgstr "Επιλέξτε τουλάχιστον δύο προϊόντα."
+
+#: src/decision-room/edit.js:678
+msgid "Use the Product settings in the sidebar."
+msgstr "Χρησιμοποιήστε τις ρυθμίσεις Προϊόντος στην πλαϊνή στήλη."
+
+# translators: %1$s: first date, %2$s: last date.
+#: src/delivery-estimate/edit.js:52
+msgid "%1$s – %2$s"
+msgstr "%1$s – %2$s"
+
+#: src/delivery-estimate/edit.js:67 src/product-specifications/edit.js:86
+msgid "Product source"
+msgstr "Πηγή προϊόντος"
+
+#: src/delivery-estimate/edit.js:71 src/product-specifications/edit.js:90
+msgid "WooCommerce product"
+msgstr "Προϊόν WooCommerce"
+
+#: src/delivery-estimate/edit.js:75 src/product-specifications/edit.js:94
+msgid "Leave empty on a product page to use the current product."
+msgstr "Αφήστε κενό σε σελίδα προϊόντος για να χρησιμοποιηθεί το τρέχον προϊόν."
+
+#: src/delivery-estimate/edit.js:97
+msgid "Delivery rules"
+msgstr "Κανόνες παράδοσης"
+
+#: src/delivery-estimate/edit.js:99
+msgid "Rules source"
+msgstr "Πηγή κανόνων"
+
+#: src/delivery-estimate/edit.js:110
+msgid "Local block override"
+msgstr "Τοπική παράκαμψη block"
+
+#: src/delivery-estimate/edit.js:123
+msgid ""
+"The global profile is not confirmed. This block will stay hidden on the "
+"storefront until a merchant approves it in WooCommerce settings."
+msgstr ""
+"Το καθολικό προφίλ δεν έχει επιβεβαιωθεί. Αυτό το block θα παραμείνει κρυφό "
+"στο κατάστημα μέχρι να το εγκρίνει ο έμπορος στις ρυθμίσεις WooCommerce."
+
+#: src/delivery-estimate/edit.js:166
+msgid "Uses the WordPress site timezone."
+msgstr "Χρησιμοποιεί τη ζώνη ώρας του ιστότοπου WordPress."
+
+#: src/delivery-estimate/edit.js:178
+msgid "Skip weekends"
+msgstr "Παράλειψη Σαββατοκύριακων"
+
+#: src/delivery-estimate/edit.js:188
+msgid "Holiday dates"
+msgstr "Ημερομηνίες αργιών"
+
+#: src/delivery-estimate/edit.js:192
+msgid "Comma-separated YYYY-MM-DD dates."
+msgstr "Ημερομηνίες YYYY-MM-DD χωρισμένες με κόμμα."
+
+#: src/delivery-estimate/edit.js:204 src/free-shipping-progress/edit.js:91
+msgid "Messages"
+msgstr "Μηνύματα"
+
+#: src/delivery-estimate/edit.js:206
+msgid "Out-of-stock message"
+msgstr "Μήνυμα εξάντλησης αποθέματος"
+
+#: src/delivery-estimate/edit.js:216
+msgid "Backorder message"
+msgstr "Μήνυμα backorder"
+
+#: src/delivery-estimate/edit.js:256
+msgid "Choose a product, or use this block in a product template."
+msgstr "Επιλέξτε ένα προϊόν ή χρησιμοποιήστε αυτό το block σε template προϊόντος."
+
+#: src/free-shipping-progress/edit.js:45
+msgid "Free shipping rule"
+msgstr "Κανόνας δωρεάν αποστολής"
+
+#: src/free-shipping-progress/edit.js:49
+msgid "Threshold"
+msgstr "Όριο"
+
+#: src/free-shipping-progress/edit.js:50
+msgid "Use 0 to detect the matching WooCommerce free-shipping method automatically."
+msgstr ""
+"Χρησιμοποιήστε 0 για αυτόματο εντοπισμό της αντίστοιχης μεθόδου δωρεάν "
+"αποστολής WooCommerce."
+
+#: src/free-shipping-progress/edit.js:66
+msgid ""
+"The editor uses a 100-unit preview in the store currency. The storefront "
+"uses the matching WooCommerce shipping zone."
+msgstr ""
+"Ο editor χρησιμοποιεί προεπισκόπηση 100 μονάδων στο νόμισμα του "
+"καταστήματος. Το storefront χρησιμοποιεί την αντίστοιχη ζώνη αποστολής "
+"WooCommerce."
+
+#: src/free-shipping-progress/edit.js:73
+msgid "Editor preview cart total"
+msgstr "Σύνολο καλαθιού προεπισκόπησης editor"
+
+#: src/free-shipping-progress/edit.js:93
+msgid "Progress message"
+msgstr "Μήνυμα προόδου"
+
+#: src/free-shipping-progress/edit.js:94
+msgid "Use {amount} for the live remaining amount."
+msgstr "Χρησιμοποιήστε {amount} για το ζωντανό υπολειπόμενο ποσό."
+
+#: src/free-shipping-progress/edit.js:104
+msgid "Success message"
+msgstr "Μήνυμα επιτυχίας"
+
+#: src/free-shipping-progress/edit.js:111
+msgid "Empty-cart message"
+msgstr "Μήνυμα κενού καλαθιού"
+
+#: src/free-shipping-progress/edit.js:118
+msgid "Hide when cart is empty"
+msgstr "Απόκρυψη όταν το καλάθι είναι κενό"
+
+#: src/product-comparison/edit.js:148
+msgid "Products"
+msgstr "Προϊόντα"
+
+#: src/product-comparison/edit.js:152
+msgid "Select two to four published, catalog-visible products."
+msgstr ""
+"Επιλέξτε δύο έως τέσσερα δημοσιευμένα προϊόντα που είναι ορατά στον "
+"κατάλογο."
+
+# translators: %d: product position.
+#: src/product-comparison/edit.js:162
+msgid "Product %d"
+msgstr "Προϊόν %d"
+
+#: src/product-comparison/edit.js:185
+msgid "Comparison rows"
+msgstr "Γραμμές σύγκρισης"
+
+#: src/product-comparison/edit.js:188 src/product-specifications/edit.js:125
+msgid "Show availability"
+msgstr "Εμφάνιση διαθεσιμότητας"
+
+#: src/product-comparison/edit.js:195 src/product-specifications/edit.js:139
+msgid "Show dimensions"
+msgstr "Εμφάνιση διαστάσεων"
+
+#: src/product-comparison/edit.js:235
+msgid "Differences button label"
+msgstr "Ετικέτα κουμπιού διαφορών"
+
+#: src/product-comparison/edit.js:264
+msgid "Select at least two products to build the live comparison."
+msgstr "Επιλέξτε τουλάχιστον δύο προϊόντα για να δημιουργηθεί η ζωντανή σύγκριση."
+
+#: src/product-specifications/edit.js:117
+msgid "Visible details"
+msgstr "Ορατές λεπτομέρειες"
+
+#: src/product-specifications/edit.js:120
+msgid "Show SKU"
+msgstr "Εμφάνιση SKU"
+
+#: src/product-specifications/edit.js:132
+msgid "Show weight"
+msgstr "Εμφάνιση βάρους"
+
+#: src/product-specifications/edit.js:166
+msgid "Product information"
+msgstr "Πληροφορίες προϊόντος"
+
+#: src/product-specifications/edit.js:176
+msgid "Technical specifications"
+msgstr "Τεχνικές προδιαγραφές"
+
+#: src/product-specifications/edit.js:185
+msgid "Choose a product, or place this block in a product template."
+msgstr "Επιλέξτε ένα προϊόν ή τοποθετήστε αυτό το block σε template προϊόντος."
+
+#: src/product-specifications/edit.js:193
+msgid "This product has no visible specifications yet."
+msgstr "Αυτό το προϊόν δεν έχει ακόμη ορατές προδιαγραφές."

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#eeeae0"/>
+      <stop offset="1" stop-color="#c9c2b1"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="28" stdDeviation="24" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <path d="M0 0h1200L790 900H0Z" fill="#d7ff43" opacity=".62"/>
+  <g filter="url(#shadow)">
+    <rect x="160" y="150" width="880" height="600" rx="48" fill="#111712"/>
+    <g transform="translate(225 225)" fill="none" stroke="#d7ff43" stroke-width="9">
+      <rect width="94" height="94" rx="24"/>
+      <path d="M24 66V48m23 18V35m23 31V22" stroke-linecap="round"/>
+    </g>
+    <text x="225" y="410" fill="#d7ff43" font-family="Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="6">SCALE</text>
+    <text x="225" y="495" fill="#f4f0e7" font-family="Arial, sans-serif" font-size="72" font-weight="700" textLength="700" lengthAdjust="spacingAndGlyphs">Depth without limits.</text>
+    <rect x="225" y="585" width="610" height="22" rx="11" fill="#f4f0e7" opacity=".3"/>
+    <rect x="225" y="635" width="470" height="22" rx="11" fill="#f4f0e7" opacity=".17"/>
+  </g>
+</svg>

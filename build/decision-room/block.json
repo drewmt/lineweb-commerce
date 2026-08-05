@@ -1,0 +1,143 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "lineweb-commerce/decision-room",
+  "version": "0.1.0",
+  "title": "Decision Room",
+  "category": "lineweb-commerce",
+  "icon": "chart-area",
+  "description": "Explain which live WooCommerce product fits best as shoppers change their priorities.",
+  "keywords": [
+    "woocommerce",
+    "recommendation",
+    "comparison"
+  ],
+  "textdomain": "lineweb-commerce",
+  "attributes": {
+    "eyebrow": {
+      "type": "string",
+      "default": "DECIDE WITH CONTEXT"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Find the product that fits your priorities"
+    },
+    "description": {
+      "type": "string",
+      "default": "Change what matters most. The recommendation updates instantly and shows the reasoning behind it."
+    },
+    "headingLevel": {
+      "type": "number",
+      "default": 2
+    },
+    "productIds": {
+      "type": "array",
+      "default": []
+    },
+    "criteria": {
+      "type": "array",
+      "default": [
+        {
+          "id": "value",
+          "label": "Long-term value",
+          "description": "Balance the current price against the useful value delivered over time.",
+          "weight": 8,
+          "scores": [
+            76,
+            92,
+            84
+          ],
+          "evidenceLabel": "Merchant assessment — replace before publishing",
+          "evidenceUrl": ""
+        },
+        {
+          "id": "simplicity",
+          "label": "Ease of use",
+          "description": "How quickly a buyer can start and keep using the product confidently.",
+          "weight": 7,
+          "scores": [
+            94,
+            82,
+            66
+          ],
+          "evidenceLabel": "Merchant assessment — replace before publishing",
+          "evidenceUrl": ""
+        },
+        {
+          "id": "capability",
+          "label": "Capability",
+          "description": "The depth of features available for demanding or future use.",
+          "weight": 9,
+          "scores": [
+            62,
+            86,
+            97
+          ],
+          "evidenceLabel": "Merchant assessment — replace before publishing",
+          "evidenceUrl": ""
+        }
+      ]
+    },
+    "scenarios": {
+      "type": "array",
+      "default": [
+        {
+          "label": "Balanced",
+          "weights": [
+            8,
+            7,
+            9
+          ]
+        },
+        {
+          "label": "Simplest start",
+          "weights": [
+            1,
+            10,
+            0
+          ]
+        },
+        {
+          "label": "Maximum capability",
+          "weights": [
+            1,
+            0,
+            10
+          ]
+        }
+      ]
+    },
+    "disclaimer": {
+      "type": "string",
+      "default": "Fit scores are an editorial decision aid, not an objective product certification. Review the criteria, scores, and evidence before publishing."
+    }
+  },
+  "supports": {
+    "inserter": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true,
+    "html": false,
+    "spacing": {
+      "margin": true
+    }
+  },
+  "styles": [
+    {
+      "name": "laboratory",
+      "label": "Laboratory",
+      "isDefault": true
+    },
+    {
+      "name": "paper",
+      "label": "Paper"
+    }
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScriptModule": "file:./view.js",
+  "render": "file:./render.php"
+}

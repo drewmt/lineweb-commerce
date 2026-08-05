@@ -1,0 +1,103 @@
+:where(.wp-block-lineweb-commerce-product-specifications) {
+	--lwc-spec-ink: #18201b;
+	--lwc-spec-muted: #5f6b63;
+	--lwc-spec-line: #dce3de;
+	--lwc-spec-surface: #f7f9f7;
+
+	box-sizing: border-box;
+	margin-block: clamp(32px, 6vw, 72px);
+	color: var(--lwc-spec-ink);
+}
+
+.wp-block-lineweb-commerce-product-specifications *,
+.wp-block-lineweb-commerce-product-specifications *::before,
+.wp-block-lineweb-commerce-product-specifications *::after {
+	box-sizing: border-box;
+}
+
+.lwc-specifications__header {
+	display: grid;
+	grid-template-columns: minmax(140px, 0.36fr) minmax(0, 1fr);
+	gap: 16px 32px;
+	align-items: baseline;
+	margin-bottom: 24px;
+}
+
+.lwc-specifications__eyebrow {
+	margin: 0;
+	color: var(--lwc-spec-muted);
+	font-size: 0.75rem;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.lwc-specifications__heading {
+	margin: 0;
+	font-size: clamp(1.55rem, 3vw, 2.35rem);
+	font-weight: 650;
+	line-height: 1.15;
+	letter-spacing: -0.025em;
+}
+
+.lwc-specifications__list {
+	margin: 0;
+	background: var(--lwc-spec-surface);
+	border: 1px solid var(--lwc-spec-line);
+	border-radius: 14px;
+	overflow: hidden;
+}
+
+.lwc-specifications__list > div {
+	display: grid;
+	grid-template-columns: minmax(140px, 0.36fr) minmax(0, 1fr);
+	gap: 16px 32px;
+	padding: 16px 20px;
+	border-bottom: 1px solid var(--lwc-spec-line);
+}
+
+.lwc-specifications__list > div:last-child {
+	border-bottom: 0;
+}
+
+.lwc-specifications__list dt,
+.lwc-specifications__list dd {
+	min-width: 0;
+	margin: 0;
+	font-size: 0.9375rem;
+	line-height: 1.55;
+	overflow-wrap: anywhere;
+}
+
+.lwc-specifications__list dt {
+	color: var(--lwc-spec-muted);
+	font-weight: 580;
+}
+
+.lwc-specifications__list dd {
+	font-weight: 650;
+}
+
+.wp-block-lineweb-commerce-product-specifications.is-style-compact {
+
+	.lwc-specifications__header {
+		margin-bottom: 16px;
+	}
+
+	.lwc-specifications__list > div {
+		padding-block: 11px;
+	}
+}
+
+@media (max-width: 560px) {
+
+	.lwc-specifications__header,
+	.lwc-specifications__list > div {
+		grid-template-columns: 1fr;
+		gap: 5px;
+	}
+
+	.lwc-specifications__header {
+		gap: 8px;
+	}
+}

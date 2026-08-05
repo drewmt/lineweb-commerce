@@ -1,0 +1,50 @@
+{
+  "translation-revision-date": "2026-08-05 00:00+0000",
+  "generator": "Lineweb reviewed localization map",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "plural-forms": "nplurals=2; plural=(n != 1);",
+        "lang": "el_GR"
+      },
+      "Free shipping progress": [
+        "Πρόοδος δωρεάν αποστολής"
+      ],
+      "Messages": [
+        "Μηνύματα"
+      ],
+      "Free shipping rule": [
+        "Κανόνας δωρεάν αποστολής"
+      ],
+      "Threshold": [
+        "Όριο"
+      ],
+      "Use 0 to detect the matching WooCommerce free-shipping method automatically.": [
+        "Χρησιμοποιήστε 0 για αυτόματο εντοπισμό της αντίστοιχης μεθόδου δωρεάν αποστολής WooCommerce."
+      ],
+      "The editor uses a 100-unit preview in the store currency. The storefront uses the matching WooCommerce shipping zone.": [
+        "Ο editor χρησιμοποιεί προεπισκόπηση 100 μονάδων στο νόμισμα του καταστήματος. Το storefront χρησιμοποιεί την αντίστοιχη ζώνη αποστολής WooCommerce."
+      ],
+      "Editor preview cart total": [
+        "Σύνολο καλαθιού προεπισκόπησης editor"
+      ],
+      "Progress message": [
+        "Μήνυμα προόδου"
+      ],
+      "Use {amount} for the live remaining amount.": [
+        "Χρησιμοποιήστε {amount} για το ζωντανό υπολειπόμενο ποσό."
+      ],
+      "Success message": [
+        "Μήνυμα επιτυχίας"
+      ],
+      "Empty-cart message": [
+        "Μήνυμα κενού καλαθιού"
+      ],
+      "Hide when cart is empty": [
+        "Απόκρυψη όταν το καλάθι είναι κενό"
+      ]
+    }
+  }
+}

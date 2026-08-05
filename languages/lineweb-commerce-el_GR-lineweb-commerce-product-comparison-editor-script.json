@@ -1,0 +1,59 @@
+{
+  "translation-revision-date": "2026-08-05 00:00+0000",
+  "generator": "Lineweb reviewed localization map",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "plural-forms": "nplurals=2; plural=(n != 1);",
+        "lang": "el_GR"
+      },
+      "In stock": [
+        "Σε απόθεμα"
+      ],
+      "Out of stock": [
+        "Εξαντλημένο"
+      ],
+      "Availability": [
+        "Διαθεσιμότητα"
+      ],
+      "Dimensions": [
+        "Διαστάσεις"
+      ],
+      "Price": [
+        "Τιμή"
+      ],
+      "Feature": [
+        "Χαρακτηριστικό"
+      ],
+      "Heading level": [
+        "Επίπεδο επικεφαλίδας"
+      ],
+      "Products": [
+        "Προϊόντα"
+      ],
+      "Select two to four published, catalog-visible products.": [
+        "Επιλέξτε δύο έως τέσσερα δημοσιευμένα προϊόντα που είναι ορατά στον κατάλογο."
+      ],
+      "Product %d": [
+        "Προϊόν %d"
+      ],
+      "Comparison rows": [
+        "Γραμμές σύγκρισης"
+      ],
+      "Show availability": [
+        "Εμφάνιση διαθεσιμότητας"
+      ],
+      "Show dimensions": [
+        "Εμφάνιση διαστάσεων"
+      ],
+      "Differences button label": [
+        "Ετικέτα κουμπιού διαφορών"
+      ],
+      "Select at least two products to build the live comparison.": [
+        "Επιλέξτε τουλάχιστον δύο προϊόντα για να δημιουργηθεί η ζωντανή σύγκριση."
+      ]
+    }
+  }
+}

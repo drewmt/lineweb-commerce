@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "lineweb-commerce/delivery-estimate",
+	"version": "0.6.0",
+	"title": "Delivery Estimate",
+	"category": "lineweb-commerce",
+	"icon": "calendar-alt",
+	"description": "Show a clear delivery window from stock status, business days, cutoff, and holidays.",
+	"keywords": [ "woocommerce", "delivery", "shipping" ],
+	"textdomain": "lineweb-commerce",
+	"attributes": {
+		"productId": { "type": "number", "default": 0 },
+		"profileSource": { "type": "string", "default": "local" },
+		"eyebrow": { "type": "string", "default": "Delivery estimate" },
+		"heading": { "type": "string", "default": "When will it arrive?" },
+		"headingLevel": { "type": "number", "default": 2 },
+		"minimumBusinessDays": { "type": "number", "default": 1 },
+		"maximumBusinessDays": { "type": "number", "default": 3 },
+		"cutoffHour": { "type": "number", "default": 14 },
+		"skipWeekends": { "type": "boolean", "default": true },
+		"holidayDates": { "type": "string", "default": "" },
+		"outOfStockMessage": {
+			"type": "string",
+			"default": "Contact us for availability."
+		},
+		"backorderMessage": {
+			"type": "string",
+			"default": "Available on backorder. Delivery may take longer."
+		}
+	},
+	"usesContext": [ "postId", "postType" ],
+	"supports": {
+		"align": [ "wide", "full" ],
+		"anchor": true,
+		"html": false,
+		"spacing": { "margin": true }
+	},
+	"styles": [
+		{ "name": "card", "label": "Card", "isDefault": true },
+		{ "name": "inline", "label": "Inline" }
+	],
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"render": "file:./render.php"
+}

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "lineweb-commerce/product-specifications",
+  "version": "0.6.0",
+  "title": "Product Specifications",
+  "category": "lineweb-commerce",
+  "icon": "editor-table",
+  "description": "Show trustworthy WooCommerce product details in a clear specification table.",
+  "keywords": [
+    "woocommerce",
+    "specifications",
+    "attributes"
+  ],
+  "textdomain": "lineweb-commerce",
+  "attributes": {
+    "productId": {
+      "type": "number",
+      "default": 0
+    },
+    "eyebrow": {
+      "type": "string",
+      "default": "Product information"
+    },
+    "heading": {
+      "type": "string",
+      "default": "Technical specifications"
+    },
+    "headingLevel": {
+      "type": "number",
+      "default": 2
+    },
+    "showSku": {
+      "type": "boolean",
+      "default": true
+    },
+    "showStock": {
+      "type": "boolean",
+      "default": true
+    },
+    "showWeight": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDimensions": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "usesContext": [
+    "postId",
+    "postType"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true,
+    "html": false,
+    "spacing": {
+      "margin": true
+    }
+  },
+  "styles": [
+    {
+      "name": "clean",
+      "label": "Clean",
+      "isDefault": true
+    },
+    {
+      "name": "compact",
+      "label": "Compact"
+    }
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

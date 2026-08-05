@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "lineweb-commerce/free-shipping-progress",
+  "version": "0.3.0",
+  "title": "Free Shipping Progress",
+  "category": "lineweb-commerce",
+  "icon": "cart",
+  "description": "Show how much remains until free shipping, using the live WooCommerce cart.",
+  "keywords": [
+    "woocommerce",
+    "free shipping",
+    "cart"
+  ],
+  "textdomain": "lineweb-commerce",
+  "attributes": {
+    "threshold": {
+      "type": "number",
+      "default": 0
+    },
+    "message": {
+      "type": "string",
+      "default": "Add {amount} more for free shipping"
+    },
+    "successMessage": {
+      "type": "string",
+      "default": "Free shipping unlocked"
+    },
+    "emptyMessage": {
+      "type": "string",
+      "default": "Add a product to start tracking free shipping"
+    },
+    "hideWhenEmpty": {
+      "type": "boolean",
+      "default": true
+    },
+    "previewCartTotal": {
+      "type": "number",
+      "default": 35
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true,
+    "html": false,
+    "spacing": {
+      "margin": true
+    }
+  },
+  "styles": [
+    {
+      "name": "bar",
+      "label": "Bar",
+      "isDefault": true
+    },
+    {
+      "name": "minimal",
+      "label": "Minimal"
+    }
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js",
+  "render": "file:./render.php"
+}

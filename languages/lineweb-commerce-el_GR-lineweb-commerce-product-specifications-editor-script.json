@@ -1,0 +1,71 @@
+{
+  "translation-revision-date": "2026-08-05 00:00+0000",
+  "generator": "Lineweb reviewed localization map",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "plural-forms": "nplurals=2; plural=(n != 1);",
+        "lang": "el_GR"
+      },
+      "SKU": [
+        "SKU"
+      ],
+      "In stock": [
+        "Σε απόθεμα"
+      ],
+      "Out of stock": [
+        "Εξαντλημένο"
+      ],
+      "Availability": [
+        "Διαθεσιμότητα"
+      ],
+      "Weight": [
+        "Βάρος"
+      ],
+      "Dimensions": [
+        "Διαστάσεις"
+      ],
+      "Heading level": [
+        "Επίπεδο επικεφαλίδας"
+      ],
+      "Product source": [
+        "Πηγή προϊόντος"
+      ],
+      "WooCommerce product": [
+        "Προϊόν WooCommerce"
+      ],
+      "Leave empty on a product page to use the current product.": [
+        "Αφήστε κενό σε σελίδα προϊόντος για να χρησιμοποιηθεί το τρέχον προϊόν."
+      ],
+      "Show availability": [
+        "Εμφάνιση διαθεσιμότητας"
+      ],
+      "Show dimensions": [
+        "Εμφάνιση διαστάσεων"
+      ],
+      "Visible details": [
+        "Ορατές λεπτομέρειες"
+      ],
+      "Show SKU": [
+        "Εμφάνιση SKU"
+      ],
+      "Show weight": [
+        "Εμφάνιση βάρους"
+      ],
+      "Product information": [
+        "Πληροφορίες προϊόντος"
+      ],
+      "Technical specifications": [
+        "Τεχνικές προδιαγραφές"
+      ],
+      "Choose a product, or place this block in a product template.": [
+        "Επιλέξτε ένα προϊόν ή τοποθετήστε αυτό το block σε template προϊόντος."
+      ],
+      "This product has no visible specifications yet.": [
+        "Αυτό το προϊόν δεν έχει ακόμη ορατές προδιαγραφές."
+      ]
+    }
+  }
+}

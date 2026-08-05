@@ -1,0 +1,77 @@
+{
+  "translation-revision-date": "2026-08-05 00:00+0000",
+  "generator": "Lineweb reviewed localization map",
+  "domain": "messages",
+  "locale_data": {
+    "messages": {
+      "": {
+        "domain": "messages",
+        "plural-forms": "nplurals=2; plural=(n != 1);",
+        "lang": "el_GR"
+      },
+      "Global delivery profile": [
+        "Καθολικό προφίλ παράδοσης"
+      ],
+      "Minimum business days": [
+        "Ελάχιστες εργάσιμες ημέρες"
+      ],
+      "Maximum business days": [
+        "Μέγιστες εργάσιμες ημέρες"
+      ],
+      "Daily cutoff hour": [
+        "Καθημερινή ώρα λήξης"
+      ],
+      "Heading level": [
+        "Επίπεδο επικεφαλίδας"
+      ],
+      "%1$s – %2$s": [
+        "%1$s – %2$s"
+      ],
+      "Product source": [
+        "Πηγή προϊόντος"
+      ],
+      "WooCommerce product": [
+        "Προϊόν WooCommerce"
+      ],
+      "Leave empty on a product page to use the current product.": [
+        "Αφήστε κενό σε σελίδα προϊόντος για να χρησιμοποιηθεί το τρέχον προϊόν."
+      ],
+      "Delivery rules": [
+        "Κανόνες παράδοσης"
+      ],
+      "Rules source": [
+        "Πηγή κανόνων"
+      ],
+      "Local block override": [
+        "Τοπική παράκαμψη block"
+      ],
+      "The global profile is not confirmed. This block will stay hidden on the storefront until a merchant approves it in WooCommerce settings.": [
+        "Το καθολικό προφίλ δεν έχει επιβεβαιωθεί. Αυτό το block θα παραμείνει κρυφό στο κατάστημα μέχρι να το εγκρίνει ο έμπορος στις ρυθμίσεις WooCommerce."
+      ],
+      "Uses the WordPress site timezone.": [
+        "Χρησιμοποιεί τη ζώνη ώρας του ιστότοπου WordPress."
+      ],
+      "Skip weekends": [
+        "Παράλειψη Σαββατοκύριακων"
+      ],
+      "Holiday dates": [
+        "Ημερομηνίες αργιών"
+      ],
+      "Comma-separated YYYY-MM-DD dates.": [
+        "Ημερομηνίες YYYY-MM-DD χωρισμένες με κόμμα."
+      ],
+      "Messages": [
+        "Μηνύματα"
+      ],
+      "Out-of-stock message": [
+        "Μήνυμα εξάντλησης αποθέματος"
+      ],
+      "Backorder message": [
+        "Μήνυμα backorder"
+      ],
+      "Choose a product, or use this block in a product template.": [
+        "Επιλέξτε ένα προϊόν ή χρησιμοποιήστε αυτό το block σε template προϊόντος."
+      ]
+    }
+  }
+}

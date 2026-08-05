@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-lwc-comparison]").forEach(e=>{const t=e.querySelector("[data-lwc-comparison-toggle]");t&&t.addEventListener("click",()=>{const r="true"!==t.getAttribute("aria-pressed");t.setAttribute("aria-pressed",String(r)),e.querySelectorAll("[data-lwc-comparison-row]").forEach(e=>{e.hidden=r&&"1"!==e.dataset.different})})});
