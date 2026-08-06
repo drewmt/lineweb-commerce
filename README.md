@@ -1,8 +1,8 @@
-# Lineweb Commerce Suite
+# Lineweb Commerce Suite — WooCommerce Blocks & Store UX Tools
 
 ![Lineweb Commerce Suite](wordpress-org-assets/banner-1544x500.png)
 
-Four practical WooCommerce blocks for product facts, delivery clarity, free-shipping progress, and factual product comparison. Selected features can appear at official WooCommerce conversion points, while the merchant keeps control of every automatic placement.
+A free WooCommerce blocks plugin for product specifications, delivery estimates, free-shipping progress, cart UX, and factual product comparisons. Selected tools can appear at official WooCommerce conversion points, while the merchant keeps control of every automatic placement.
 
 - Live product and cart data from WooCommerce rather than a duplicate data source.
 - Manual Gutenberg blocks plus controlled Product, Cart, and Mini-Cart integrations where appropriate.
